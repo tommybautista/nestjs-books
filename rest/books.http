@@ -2,7 +2,7 @@ GET http://localhost:3000 HTTP/1.1
 
 ###
 
-GET http://localhost:3000/comments HTTP/1.1
+GET http://localhost:3000/books HTTP/1.1
 
 ###
 
@@ -10,11 +10,13 @@ GET http://localhost:3000/comments?parentId=655a3ecd3f9161299d2c53d2
 
 ###
 
-POST http://localhost:3000/comments  HTTP/1.1
+POST http://localhost:3000/books/new  HTTP/1.1
 content-type: application/json
 
 {
-    "text" : "i am a nested comment inside the second comment",
-    "parentId" : "655a3ecd3f9161299d2c53d2",
-    "userId" : "65597bd04b1735d29090877e"
+    "title" : "Book 1",
+    "description" : "Book 1 description",
+    "author" : "Author 1",
+    "price" : 100,
+    "category" : "Adventure"
 }
