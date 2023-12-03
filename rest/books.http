@@ -6,7 +6,7 @@ GET http://localhost:3000/books HTTP/1.1
 
 ###
 
-GET http://localhost:3000/comments?parentId=655a3ecd3f9161299d2c53d2
+GET http://localhost:3000/books/656c81ca0bbb4028e8cb85e6
 
 ###
 
@@ -20,3 +20,20 @@ content-type: application/json
     "price" : 100,
     "category" : "Adventure"
 }
+
+###
+
+PUT http://localhost:3000/books/656c81ca0bbb4028e8cb85e6  HTTP/1.1
+content-type: application/json
+
+{
+    "title" : "Update Book Title",
+    "description" : "Book 1 description",
+    "author" : "Author 1",
+    "price" : 100,
+    "category" : "Adventure"
+}
+
+###
+
+DELETE  http://localhost:3000/books/656c89df717a51bf784660b8
