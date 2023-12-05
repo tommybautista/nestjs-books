@@ -23,15 +23,15 @@ content-type: application/json
 
 ###
 
-PUT http://localhost:3000/books/656c81ca0bbb4028e8cb85e6  HTTP/1.1
+PUT http://localhost:3000/books/656e10f838460c7e6a057bcd  HTTP/1.1
 content-type: application/json
 
 {
-    "title" : "Update Book Title",
-    "description" : "Book 1 description",
-    "author" : "Author 1",
+    "title" : "Book 3",
+    "description" : "Book 3 description",
+    "author" : "Author 3",
     "price" : 100,
-    "category" : "Adventure"
+    "category" : "Fantasy"
 }
 
 ###
