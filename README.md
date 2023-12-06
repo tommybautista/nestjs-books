@@ -33,6 +33,8 @@ $ npm install
 
 $ npm install @nestjs/mongoose --save
 $ npm install @nestjs/config --save
+$ npm install --save class-validator
+$ npm install --save class-transformer
 ```
 
 ## Running the app
