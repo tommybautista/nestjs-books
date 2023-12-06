@@ -35,6 +35,10 @@ $ npm install @nestjs/mongoose --save
 $ npm install @nestjs/config --save
 $ npm install --save class-validator
 $ npm install --save class-transformer
+$ npm install --save @nestjs/passport passport passport-local
+$ npm install --save-dev @types/passport-local
+$ npm install --save-dev @types/passport-local
+$ npm install bcryptjs --save
 ```
 
 ## Running the app
