@@ -30,6 +30,9 @@
 
 ```bash
 $ npm install
+
+$ npm install @nestjs/mongoose --save
+$ npm install @nestjs/config --save
 ```
 
 ## Running the app
