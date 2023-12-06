@@ -11,7 +11,7 @@ GET http://localhost:3000/books?keyword=&page= ' HTTP/1.1
 
 ###
 
-GET http://localhost:3000/books/656c81ca0bbb4028e8cb85e6
+GET http://localhost:3000/books/656de120d29414287ebb5eadfsfd
 
 ###
 
@@ -23,7 +23,7 @@ content-type: application/json
     "description" : "Book 1 description",
     "author" : "Author 1",
     "price" : 100,
-    "category" : "Adventure"
+    "category" : "Horror"
 }
 
 ###
