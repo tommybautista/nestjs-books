@@ -7,7 +7,7 @@ GET http://localhost:3000/books HTTP/1.1
 ###
 #With optional parameters and pagination
 
-GET http://localhost:3000/books?keyword=&page= ' HTTP/1.1
+GET http://localhost:3000/books?keyword=&page=1 HTTP/1.1
 
 ###
 

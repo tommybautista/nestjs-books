@@ -37,7 +37,7 @@ $ npm install --save class-validator
 $ npm install --save class-transformer
 $ npm install --save @nestjs/passport passport passport-local
 $ npm install --save-dev @types/passport-local
-$ npm install --save-dev @types/passport-local
+$ npm install @nestjs/jwt --save
 $ npm install bcryptjs --save
 ```
 
