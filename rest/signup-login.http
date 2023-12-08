@@ -5,7 +5,7 @@ content-type: application/json
 
 {
     "name" : "Tommy",
-    "email" : "sample@gmail.com",
+    "email" : "tommy@gmail.com",
     "password" : "123456"
 }
 
@@ -15,7 +15,7 @@ GET http://localhost:3000/auth/login  HTTP/1.1
 content-type: application/json
 
 {
-    "email" : "sample@gmail.com",
+    "email" : "tommy@gmail.com",
     "password" : "123456"
 }
 
